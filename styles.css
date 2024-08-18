@@ -91,17 +91,19 @@ p:nth-child(2) {
   flex-wrap: wrap;
   background-color: #FFFFFF;
   box-shadow: 10px 2px 2px #d3d3d3;
-  padding: 40px 0 0 0;
+  /* padding: 40px 0 0 0; */
 }
 
 .middle > p {
   margin-top: 40px;
-  margin-bottom: 20px;
-  display: block;
+  margin-bottom: 30px;
+  /* display: block; */
+  width: 100%;
 }
 
 form {
   /* width: 80%; */
+  display: flex;
   flex-wrap: wrap;
 }
 .form-row {
